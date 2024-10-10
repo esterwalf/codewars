@@ -13,8 +13,19 @@ Find the unique string
 Find The Unique"""
 
 def find_uniq(arr):
-    # your code here
-    return n   # n: unique number in the array
+    def find_uniq(arr):
+        # Use a dictionary to count occurrences
+        count = {}
+        for n in arr:
+            if n in count:
+                count[n] += 1
+            else:
+                count[n] = 1
+
+        # Find the unique number
+        for n in count:
+            if count[n] == 1:
+                return n
 
 """try:
     import codewars_test as test
