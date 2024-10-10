@@ -6,6 +6,7 @@ filter_list([1,'a','b',0,15]) == [1,0,15]
 filter_list([1,2,'aasf','1','123',123]) == [1,2,123]"""
 def filter_list(l):
     'return a new list with the strings filtered out'
+    return [item for item in l if not isinstance(item, str)]
 
   """  import codewars_test as test
     from solution import filter_list
