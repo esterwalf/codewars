@@ -9,16 +9,16 @@ Waiting for translations and Feedback! Thanks!"""
 def paperwork(n, m):
     # Happy Coding! ^_^
 
-"""   import codewars_test as test
+"""   import codewars_test as unit_testing
     from solution import paperwork
 
-    @test.describe("Fixed Tests")
+    @unit_testing.describe("Fixed Tests")
     def basic_tests():
-        @test.it('Basic Test Cases')
+        @unit_testing.it('Basic Test Cases')
         def basic_test_cases():
-            test.assert_equals(paperwork(5, 5), 25, "Failed at Paperwork(5,5)")
-            test.assert_equals(paperwork(1, 2), 2, "Failed at Paperwork(1,2)")
-            test.assert_equals(paperwork(-5, 5), 0, "Failed at Paperwork(-5,5)")
-            test.assert_equals(paperwork(5, -5), 0, "Failed at Paperwork(5,-5)")
-            test.assert_equals(paperwork(-5, -5), 0, "Failed at Paperwork(-5,-5)")
-            test.assert_equals(paperwork(5, 0), 0, "Failed at Paperwork(5,0)")"""
+            unit_testing.assert_equals(paperwork(5, 5), 25, "Failed at Paperwork(5,5)")
+            unit_testing.assert_equals(paperwork(1, 2), 2, "Failed at Paperwork(1,2)")
+            unit_testing.assert_equals(paperwork(-5, 5), 0, "Failed at Paperwork(-5,5)")
+            unit_testing.assert_equals(paperwork(5, -5), 0, "Failed at Paperwork(5,-5)")
+            unit_testing.assert_equals(paperwork(-5, -5), 0, "Failed at Paperwork(-5,-5)")
+            unit_testing.assert_equals(paperwork(5, 0), 0, "Failed at Paperwork(5,0)")"""

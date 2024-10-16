@@ -2,14 +2,14 @@
 def double_integer(i):
     return i*2 # Double the integer and return it!
 
-"""import codewars_test as test
+"""import codewars_test as unit_testing
 
-@test.describe('Tests')
+@unit_testing.describe('Tests')
 def tests():
-    @test.it('Sample Test Case')
+    @unit_testing.it('Sample Test Case')
     def sample_test_case():
-        test.assert_equals(double_integer(2), 4);
-        test.assert_equals(double_integer(4), 8);
-        test.assert_equals(double_integer(-10), -20);
-        test.assert_equals(double_integer(0), 0);
-        test.assert_equals(double_integer(100), 200);"""
+        unit_testing.assert_equals(double_integer(2), 4);
+        unit_testing.assert_equals(double_integer(4), 8);
+        unit_testing.assert_equals(double_integer(-10), -20);
+        unit_testing.assert_equals(double_integer(0), 0);
+        unit_testing.assert_equals(double_integer(100), 200);"""
