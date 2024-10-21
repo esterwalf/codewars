@@ -7,7 +7,9 @@ n= 5, m=5: 25
 n=-5, m=5:  0
 Waiting for translations and Feedback! Thanks!"""
 def paperwork(n, m):
-    # Happy Coding! ^_^
+    if n <= 0 or m <= 0:
+        return 0
+    return
 
 """   import codewars_test as unit_testing
     from solution import paperwork
