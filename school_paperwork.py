@@ -8,8 +8,8 @@ n=-5, m=5:  0
 Waiting for translations and Feedback! Thanks!"""
 def paperwork(n, m):
     if n <= 0 or m <= 0:
-        return 0
-    return
+        return 0# tests 3-6 return 0
+    return n*m# else return n*m (5*5 = 25, 1*2 = 2
 
 """   import codewars_test as unit_testing
     from solution import paperwork
