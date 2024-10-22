@@ -4,3 +4,5 @@ The starship Enterprise has run into some problem when creating a program to gre
 Example output:
 
 Hello, Mr. Spock"""
+def say_hello(name):
+    return f"Hello, {name}"
