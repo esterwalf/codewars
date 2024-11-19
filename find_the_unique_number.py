@@ -28,15 +28,15 @@ def find_uniq(arr):
                 return n
 
 """try:
-    import codewars_test as test
+    import codewars_test as unit_testing
 except:
     pass
 
 
-@test.describe("Basic Tests")
+@unit_testing.describe("Basic Tests")
 def f():
-    @test.it("Simple tests")
+    @unit_testing.it("Simple tests")
     def _():
-        test.assert_equals(find_uniq([ 1, 1, 1, 2, 1, 1 ]), 2)
-        test.assert_equals(find_uniq([ 0, 0, 0.55, 0, 0 ]), 0.55)
-        test.assert_equals(find_uniq([ 3, 10, 3, 3, 3 ]), 10)"""
+        unit_testing.assert_equals(find_uniq([ 1, 1, 1, 2, 1, 1 ]), 2)
+        unit_testing.assert_equals(find_uniq([ 0, 0, 0.55, 0, 0 ]), 0.55)
+        unit_testing.assert_equals(find_uniq([ 3, 10, 3, 3, 3 ]), 10)"""

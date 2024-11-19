@@ -1,2 +1,2 @@
 # codewars
-https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd/train/python
+https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/python
